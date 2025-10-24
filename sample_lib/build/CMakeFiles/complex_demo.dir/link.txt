@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Xlinker --dependency-file=CMakeFiles/complex_demo.dir/link.d CMakeFiles/complex_demo.dir/demo.cpp.o -o bin/complex_demo  libcomplex.a
