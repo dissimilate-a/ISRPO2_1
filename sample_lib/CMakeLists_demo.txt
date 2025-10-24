@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.12)
+project(ComplexDemo LANGUAGES CXX)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Find the complex library
+find_package(ComplexLibrary REQUIRED)
+
+# Create demo executable
+add_executable(complex_demo_external demo.cpp)
+
+# Link with the complex library
+target_link_libraries(complex_demo_external ComplexLibrary::complex)
+
+# Set output directory
+set_target_properties(complex_demo_external PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+)
