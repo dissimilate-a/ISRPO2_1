@@ -1,0 +1,11 @@
+/workspace/build/CMakeFiles/edit_cache.dir
+/workspace/build/CMakeFiles/rebuild_cache.dir
+/workspace/build/sample_lib/CMakeFiles/complex.dir
+/workspace/build/sample_lib/CMakeFiles/edit_cache.dir
+/workspace/build/sample_lib/CMakeFiles/rebuild_cache.dir
+/workspace/build/demos/complex_app/CMakeFiles/complex_app.dir
+/workspace/build/demos/complex_app/CMakeFiles/edit_cache.dir
+/workspace/build/demos/complex_app/CMakeFiles/rebuild_cache.dir
+/workspace/build/demos/face_detect/CMakeFiles/face_detect.dir
+/workspace/build/demos/face_detect/CMakeFiles/edit_cache.dir
+/workspace/build/demos/face_detect/CMakeFiles/rebuild_cache.dir
